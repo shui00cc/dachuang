@@ -1,0 +1,5 @@
+git add xxx.txt #添加文件到本地仓库
+git rm xxx.txt
+git commit -m "备注" #提交到本地库并备注
+git remote add ccgit git@github.com:shui00cc/dachuang.git #增加一个远程服务器的别名
+git push -u ccgit master #将本地文件提交到Github
