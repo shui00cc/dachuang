@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body{
@@ -9,8 +10,12 @@ body{
 }
 
 .intro_text{
-    margin: 0.5rem 0.4rem;
+    width: 3.2rem;
+    height: 6.5rem;
+    margin: 0.5rem;
+    border: 0;
     font-size: 24px;
+    opacity: 0.9;
 }
 
 .modulebox{
@@ -18,40 +23,55 @@ body{
     height: 6.5rem;
     background: rgba(111, 133, 172, 0.5);
     float: right;
-    margin: 0.5rem 0.4rem;
-
-    line-height: 2.5rem;
+    margin: 0.5rem;
     text-align: center;
 }
 
-.box1{
-    background: yellow;
-}
-
-.box2{
-    background: blue;
-}
-
-.box3{
-    background: white;
-}
-
-.box4{
-    background: green;
-}
-
 .modulebox div{
+    position: relative;
     float: left;
     width: 4rem;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
     height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.5rem;
 }
 
-a{
+.box1{
+    background: #ffa500;
+}
+
+.box2{
+    background: #eae6e6;
+}
+
+.box3{
+    background: #eae6e6;
+}
+
+.box4{
+    background: #ffa500;
+}
+
+/* a{
     text-decoration: none;
     color: white;
 }
 a:hover{
     color: wheat;
+} */
+.modulebox div a{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.modulebox div:hover{
+    background: #808080;
+}
+.modulebox div:hover a{
+    color: white;
 }
