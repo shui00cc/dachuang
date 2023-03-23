@@ -36,32 +36,28 @@ body{
     height: 2.5rem;
     line-height: 2.5rem;
     font-size: 0.5rem;
+    border-radius:5%;
+    box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.8);
 }
 
 .box1{
-    background: #ffa500;
+    background: #f8f9fa;
 }
 
 .box2{
-    background: #eae6e6;
+    background: #f8f9fa;
 }
 
 .box3{
-    background: #eae6e6;
+    background: #f8f9fa;
 }
 
 .box4{
-    background: #ffa500;
+    background: #f8f9fa;
 }
 
-/* a{
-    text-decoration: none;
-    color: white;
-}
-a:hover{
-    color: wheat;
-} */
 .modulebox div a{
+    color: black;
     display: block;
     position: absolute;
     top: 0;
@@ -70,8 +66,8 @@ a:hover{
     right: 0;
 }
 .modulebox div:hover{
-    background: #808080;
+    background: #f4f1f1;
 }
-.modulebox div:hover a{
+/* .modulebox div:hover a{
     color: white;
-}
+} */
