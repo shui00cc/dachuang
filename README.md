@@ -1,5 +1,4 @@
 # dachuang
-大创项目存储库
 ```
     //在写css时，只要将px单位替换成rem，这里设置的比例是100px=1rem,例如，宽度为100px时，可以直接写成1rem。
       fnResize()
